@@ -1,0 +1,60 @@
+.container{
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title{
+    margin: 15px 0;
+    font-weight: 700;
+    font-size: 16px
+}
+.form{
+    margin: 25px 0;
+}
+
+.radio-btn-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.radio-btn-wrapper label{
+    margin: 0 5px;
+}
+
+.radio-btn-wrapper span{
+    margin-right: 5px;
+}
+
+.range-wrapper{
+    margin-top: 30px;
+    position: relative;
+}
+
+.range-wrapper input{
+    width: 100%;
+    max-width: 300px;
+}
+
+.range-wrapper label{
+    display: block;
+}
+
+#salary{
+    color: rgb(39,187,229);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.hours-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#hours-span{
+    position: absolute;
+    top: -12px;
+    font-size: 12px;
+}

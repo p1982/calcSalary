@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h4 class="title">Estimate Earnings with BetterHelp</h4>
+        <form class="form">
+            <div class="radio-btn-wrapper">
+                <span>I want to work:</span>
+                <input type="radio" checked id="full-time" name="worktime" value="Full-time">
+                <label for="full-time">Full-time</label>
+                <input type="radio" id="part-time" name="worktime" value="Part-time">
+                <label for="part-time">Part-time</label>
+            </div>
+            <div class="range-wrapper">
+                <span id="hours-span"></span>
+                <input type="range" id="hours" name="hours" value="26" min="10" max="40">
+                <div class="hours-wrapper"><span>10</span><label for="hours">Hours per week</label><span>40</span></div>
+            </div>
+        </form>
+        <p>*<sup>2</sup>Estimated Annual Earning: <span id="salary"></span></p>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
